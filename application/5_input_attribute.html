@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/subscribe" method="get">
+        <label for="salary">Enter salary: </label>
+        <input type="number" name="salary" placeholder="Enter your salary" value="100000" required>
+    </form><br>
+    <h5>2+3=?</h5>
+    <label for="1">4</label>
+    <input type="radio" name="selected" id="1" value="1" />
+    <label for="2">5</label>
+    <input type="radio" name="selected" id="2" value="2" />
+
+    <label for="3">6</label>
+    <input type="radio" name="selected" i="3" value="3" /><br>
+    <h5>2+3=?</h5>
+    <select name="selected">
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+        <h4>Now learn about details tag</h4>
+        <details>
+            <summary>Topic Name</summary>
+            Topic details here
+        </details>
+<h4>Lets lear about datalist attributes</h4>
+
+<form >
+    <input list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+        <option value="Edge">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+    <input type="submit">
+</form>
+
+
+</body>
+
+</html>
